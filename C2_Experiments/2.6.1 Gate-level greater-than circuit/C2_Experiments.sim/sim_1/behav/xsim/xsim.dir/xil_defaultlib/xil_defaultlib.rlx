@@ -1,0 +1,9 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sim_1/new/gt2_testbench.sv,1753579509,systemVerilog,,,,gt2_testbench,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sim_1/new/gt4_testbench.sv,1753578527,systemVerilog,,,,gt4_testbench,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sources_1/new/gt2.sv,1753312275,systemVerilog,,C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sources_1/new/gt4.sv,,gt2,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sources_1/new/gt4.sv,1753587583,systemVerilog,,C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.srcs/sim_1/new/gt4_testbench.sv,,gt4,,uvm,../../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,

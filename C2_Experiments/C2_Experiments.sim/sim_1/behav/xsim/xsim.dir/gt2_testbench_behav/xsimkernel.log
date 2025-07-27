@@ -1,4 +1,0 @@
-Running: xsim.dir/gt2_testbench_behav/xsimk.exe -simmode gui -wdb gt2_testbench_behav.wdb -simrunnum 0 -socket 50716
-Design successfully loaded
-Design Loading Memory Usage: 27440 KB (Peak: 27440 KB)
-Design Loading CPU Usage: 31 ms

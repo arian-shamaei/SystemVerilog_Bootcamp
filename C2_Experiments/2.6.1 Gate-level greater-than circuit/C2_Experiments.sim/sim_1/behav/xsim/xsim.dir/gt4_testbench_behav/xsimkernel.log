@@ -1,0 +1,7 @@
+Running: xsim.dir/gt4_testbench_behav/xsimk.exe -simmode gui -wdb gt4_testbench_behav.wdb -simrunnum 0 -socket 49853
+Design successfully loaded
+Design Loading Memory Usage: 26848 KB (Peak: 26848 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 27692 KB (Peak: 27692 KB)
+Simulation CPU Usage: 30 ms

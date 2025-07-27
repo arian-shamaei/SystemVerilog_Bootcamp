@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Sat Jul 26 20:44:58 2025
+# Process ID         : 5032
+# Current directory  : C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.runs/impl_1
+# Command line       : vivado.exe -log gt4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source gt4.tcl -notrace
+# Log file           : C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.runs/impl_1/gt4.vdi
+# Journal file       : C:/Users/arianshamaei/Verification_Engineering/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/C2_Experiments.runs/impl_1\vivado.jou
+# Running On         : ARIANSHAMAE22D1
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Apple Silicon
+# CPU Frequency      : 3200 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8584 MB
+# Swap memory        : 738 MB
+# Total Virtual      : 9322 MB
+# Available Virtual  : 3256 MB
+#-----------------------------------------------------------
+source gt4.tcl -notrace
