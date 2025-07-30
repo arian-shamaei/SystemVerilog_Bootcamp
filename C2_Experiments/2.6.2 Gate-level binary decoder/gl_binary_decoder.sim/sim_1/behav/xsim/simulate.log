@@ -1,0 +1,2 @@
+Time resolution is 1 ps
+$stop called at time : 340 ns : File "C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/sim_1/new/bd_4to16_testbench.sv" Line 101

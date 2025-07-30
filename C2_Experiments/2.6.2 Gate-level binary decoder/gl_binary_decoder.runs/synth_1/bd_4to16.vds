@@ -1,0 +1,226 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Tue Jul 29 20:10:56 2025
+# Process ID         : 2632
+# Current directory  : C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.runs/synth_1
+# Command line       : vivado.exe -log bd_4to16.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_4to16.tcl
+# Log file           : C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.runs/synth_1/bd_4to16.vds
+# Journal file       : C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.runs/synth_1\vivado.jou
+# Running On         : ARIANSHAMAE22D1
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22621
+# Processor Detail   : Apple Silicon
+# CPU Frequency      : 3200 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 4
+# Host memory        : 8584 MB
+# Swap memory        : 2026 MB
+# Total Virtual      : 10610 MB
+# Available Virtual  : 2177 MB
+#-----------------------------------------------------------
+source bd_4to16.tcl -notrace
+create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 519.457 ; gain = 213.555
+Command: read_checkpoint -auto_incremental -incremental {C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/utils_1/imports/synth_1/bd_2to4.dcp}
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/utils_1/imports/synth_1/bd_2to4.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top bd_4to16 -part xc7a100tcsg324-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7968
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1025.367 ; gain = 492.734
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_4to16' [C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/sources_1/new/bd_4to16.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'bd_2to4' [C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/sources_1/new/bd_2to4.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'bd_2to4' (0#1) [C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/sources_1/new/bd_2to4.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'bd_4to16' (0#1) [C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/sources_1/new/bd_4to16.sv:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-3
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-3
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Preparing Guide Design
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6895] The reference checkpoint C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.srcs/utils_1/imports/synth_1/bd_2to4.dcp is not suitable for use with incremental synthesis for this design. Please regenerate the checkpoint for this design with -incremental_synth switch in the same Vivado session that synth_design has been run. Synthesis will continue with the default flow
+---------------------------------------------------------------------------------
+Finished Doing Graph Differ : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Preparing Guide Design : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1130.969 ; gain = 598.336
+---------------------------------------------------------------------------------
+
+
+Incremental Synthesis Report Summary:
+
+1. Incremental synthesis run: no
+
+   Reason for not running incremental synthesis : 
+
+
+INFO: [Synth 8-7130] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[15] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[14] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[13] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[11] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[10] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[9] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[7] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[6] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[5] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[3] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[2] driven by constant 0
+WARNING: [Synth 8-3917] design bd_4to16 has port bcode[1] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 1320.676 ; gain = 788.043
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1336.453 ; gain = 803.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 1336.453 ; gain = 803.820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT5 |     4|
+|2     |IBUF |     5|
+|3     |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    25|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:33 . Memory (MB): peak = 1556.484 ; gain = 1023.852
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1571.523 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1686.578 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e1950a4f
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 13 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 1686.578 ; gain = 1159.949
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1686.578 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Xilinx/FPGA_Prototyping_by_SystemVerilog_Examples/C2_Experiments/2.6.2 Gate-level binary decoder/gl_binary_decoder.runs/synth_1/bd_4to16.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file bd_4to16_utilization_synth.rpt -pb bd_4to16_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 29 20:11:45 2025...
