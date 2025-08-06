@@ -1,119 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1754262195">
-  <File Type="PA-TCL" Name="one_shift_lr.tcl"/>
-  <File Type="REPORTS-TCL" Name="one_shift_lr_reports.tcl"/>
-  <File Type="INIT-TIMING" Name="one_shift_lr_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="one_shift_lr_opt.dcp"/>
-  <File Type="OPT-DRC" Name="one_shift_lr_drc_opted.rpt"/>
-  <File Type="OPT-UTIL" Name="one_shift_lr_utilization_opted.rpt"/>
-  <File Type="OPT-UTIL-PB" Name="one_shift_lr_utilization_opted.pb"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="one_shift_lr_methodology_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="one_shift_lr.hwdef"/>
-  <File Type="OPT-TIMING" Name="one_shift_lr_timing_summary_opted.rpt"/>
-  <File Type="OPT-RQA-PB" Name="one_shift_lr_rqa_opted.pb"/>
-  <File Type="PWROPT-DCP" Name="one_shift_lr_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="one_shift_lr_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="one_shift_lr_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="one_shift_lr_placed.dcp"/>
-  <File Type="PLACE-IO" Name="one_shift_lr_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="one_shift_lr_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="one_shift_lr_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="one_shift_lr_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="one_shift_lr_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="one_shift_lr_incremental_reuse_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="one_shift_lr_incremental_reuse_pre_placed.rpt"/>
-  <File Type="PLACE-TIMING" Name="one_shift_lr_timing_summary_placed.rpt"/>
-  <File Type="PLACE-RQA-PB" Name="one_shift_lr_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="one_shift_lr_postplace_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="one_shift_lr_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="one_shift_lr_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="one_shift_lr_drc_physopted.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="one_shift_lr_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="one_shift_lr_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="one_shift_lr_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="one_shift_lr_routed_bb.dcp"/>
-  <File Type="ROUTE-UTIL" Name="one_shift_lr_utilization_routed.rpt"/>
-  <File Type="ROUTE-UTIL-PB" Name="one_shift_lr_utilization_routed.pb"/>
-  <File Type="ROUTE-DRC" Name="one_shift_lr_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="one_shift_lr_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="one_shift_lr_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="one_shift_lr_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="one_shift_lr_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="one_shift_lr_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="one_shift_lr_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="one_shift_lr_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="one_shift_lr_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="one_shift_lr_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="one_shift_lr_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="one_shift_lr_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="one_shift_lr_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="one_shift_lr_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="one_shift_lr_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="one_shift_lr_clock_utilization_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="one_shift_lr_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="one_shift_lr_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="one_shift_lr_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-RQS-PB" Name="one_shift_lr_rqs_routed.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="one_shift_lr_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="one_shift_lr_postroute_physopt_bb.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a200tfbg676-2" LaunchTime="1754520519">
+  <File Type="PA-TCL" Name="one_shift_flip_32.tcl"/>
+  <File Type="REPORTS-TCL" Name="one_shift_flip_32_reports.tcl"/>
+  <File Type="INIT-TIMING" Name="one_shift_flip_32_timing_summary_init.rpt"/>
+  <File Type="OPT-DCP" Name="one_shift_flip_32_opt.dcp"/>
+  <File Type="OPT-DRC" Name="one_shift_flip_32_drc_opted.rpt"/>
+  <File Type="OPT-UTIL" Name="one_shift_flip_32_utilization_opted.rpt"/>
+  <File Type="OPT-UTIL-PB" Name="one_shift_flip_32_utilization_opted.pb"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="one_shift_flip_32_methodology_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="one_shift_flip_32.hwdef"/>
+  <File Type="OPT-TIMING" Name="one_shift_flip_32_timing_summary_opted.rpt"/>
+  <File Type="OPT-RQA-PB" Name="one_shift_flip_32_rqa_opted.pb"/>
+  <File Type="PWROPT-DCP" Name="one_shift_flip_32_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="one_shift_flip_32_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="one_shift_flip_32_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="one_shift_flip_32_placed.dcp"/>
+  <File Type="PLACE-IO" Name="one_shift_flip_32_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="one_shift_flip_32_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="one_shift_flip_32_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="one_shift_flip_32_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="one_shift_flip_32_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="one_shift_flip_32_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="one_shift_flip_32_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="one_shift_flip_32_timing_summary_placed.rpt"/>
+  <File Type="PLACE-RQA-PB" Name="one_shift_flip_32_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="one_shift_flip_32_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="one_shift_flip_32_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="one_shift_flip_32_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="one_shift_flip_32_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="one_shift_flip_32_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="one_shift_flip_32_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="one_shift_flip_32_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="one_shift_flip_32_routed_bb.dcp"/>
+  <File Type="ROUTE-UTIL" Name="one_shift_flip_32_utilization_routed.rpt"/>
+  <File Type="ROUTE-UTIL-PB" Name="one_shift_flip_32_utilization_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="one_shift_flip_32_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="one_shift_flip_32_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="one_shift_flip_32_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="one_shift_flip_32_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="one_shift_flip_32_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="one_shift_flip_32_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="one_shift_flip_32_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="one_shift_flip_32_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="one_shift_flip_32_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="one_shift_flip_32_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="one_shift_flip_32_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="one_shift_flip_32_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="one_shift_flip_32_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="one_shift_flip_32_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="one_shift_flip_32_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="one_shift_flip_32_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="one_shift_flip_32_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="one_shift_flip_32_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="one_shift_flip_32_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-RQS-PB" Name="one_shift_flip_32_rqs_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="one_shift_flip_32_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="one_shift_flip_32_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="one_shift_lr_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="one_shift_lr_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="one_shift_lr_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="one_shift_lr_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="one_shift_lr_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="one_shift_lr_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BG-BIT" Name="one_shift_lr.bit"/>
-  <File Type="BG-BIN" Name="one_shift_lr.bin"/>
-  <File Type="BITSTR-MSK" Name="one_shift_lr.msk"/>
-  <File Type="BITSTR-RBT" Name="one_shift_lr.rbt"/>
-  <File Type="BITSTR-NKY" Name="one_shift_lr.nky"/>
-  <File Type="BITSTR-BMM" Name="one_shift_lr_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="one_shift_lr.mmi"/>
-  <File Type="PDI-FILE" Name="one_shift_lr.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="one_shift_lr_boot.pdi"/>
-  <File Type="PL-PDI-FILE" Name="one_shift_lr_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="one_shift_lr.rcfi"/>
-  <File Type="CFI_FILE" Name="one_shift_lr.cfi"/>
-  <File Type="RNPI_FILE" Name="one_shift_lr.rnpi"/>
-  <File Type="RCDO-FILE" Name="one_shift_lr.rcdo"/>
-  <File Type="MARKER-RNPI-FILE" Name="one_shift_lr_markers.rnpi"/>
-  <File Type="MARKER-RCDO-FILE" Name="one_shift_lr_markers.rcdo"/>
-  <File Type="BOOT_RNPI_FILE" Name="one_shift_lr_boot.rnpi"/>
-  <File Type="BOOT_MARKER_RNPI_FILE" Name="one_shift_lr_boot_markers.rnpi"/>
-  <File Type="PL_RNPI_FILE" Name="one_shift_lr_pld.rnpi"/>
-  <File Type="PL_MARKER_RNPI_FILE" Name="one_shift_lr_pld_markers.rnpi"/>
-  <File Type="PL_MASK_RNPI_FILE" Name="one_shift_lr_pld_mask.rnpi"/>
-  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="one_shift_lr_pld_shutdown.rnpi"/>
-  <File Type="PL_UNMASK_RNPI_FILE" Name="one_shift_lr_pld_unmask.rnpi"/>
-  <File Type="PL-RCDO-FILE" Name="one_shift_lr_pld.rcdo"/>
-  <File Type="PL-CLEAR-RCDO-FILE" Name="one_shift_lr_pld_clear.rcdo"/>
-  <File Type="PL_MARKER_RCDO_FILE" Name="one_shift_lr_pld_markers.rcdo"/>
-  <File Type="PL_MASK_RCDO_FILE" Name="one_shift_lr_pld_mask.rcdo"/>
-  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="one_shift_lr_pld_unmask_markers.rcdo"/>
-  <File Type="PL_UNMASK_RCDO_FILE" Name="one_shift_lr_pld_unmask.rcdo"/>
-  <File Type="NPI_FILE" Name="one_shift_lr.npi"/>
-  <File Type="RBD_FILE" Name="one_shift_lr.rbd"/>
-  <File Type="MMI-FILE" Name="one_shift_lr.mmi"/>
-  <File Type="BIF-FILE" Name="one_shift_lr.bif"/>
-  <File Type="BOOT-BIF-FILE" Name="one_shift_lr_boot.bif"/>
-  <File Type="PL-BIF-FILE" Name="one_shift_lr_pld.bif"/>
-  <File Type="LTX-FILE" Name="one_shift_lr.ltx"/>
-  <File Type="BOOT-LTX-FILE" Name="one_shift_lr_boot.ltx"/>
-  <File Type="PL-LTX-FILE" Name="one_shift_lr_pld.ltx"/>
+  <File Type="BG-BIT" Name="one_shift_flip_32.bit"/>
+  <File Type="BG-BIN" Name="one_shift_flip_32.bin"/>
+  <File Type="BITSTR-MSK" Name="one_shift_flip_32.msk"/>
+  <File Type="BITSTR-RBT" Name="one_shift_flip_32.rbt"/>
+  <File Type="BITSTR-NKY" Name="one_shift_flip_32.nky"/>
+  <File Type="BITSTR-BMM" Name="one_shift_flip_32_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="one_shift_flip_32.mmi"/>
+  <File Type="PDI-FILE" Name="one_shift_flip_32.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="one_shift_flip_32_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="one_shift_flip_32_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="one_shift_flip_32.rcfi"/>
+  <File Type="CFI_FILE" Name="one_shift_flip_32.cfi"/>
+  <File Type="RNPI_FILE" Name="one_shift_flip_32.rnpi"/>
+  <File Type="RCDO-FILE" Name="one_shift_flip_32.rcdo"/>
+  <File Type="MARKER-RNPI-FILE" Name="one_shift_flip_32_markers.rnpi"/>
+  <File Type="MARKER-RCDO-FILE" Name="one_shift_flip_32_markers.rcdo"/>
+  <File Type="BOOT_RNPI_FILE" Name="one_shift_flip_32_boot.rnpi"/>
+  <File Type="BOOT_MARKER_RNPI_FILE" Name="one_shift_flip_32_boot_markers.rnpi"/>
+  <File Type="PL_RNPI_FILE" Name="one_shift_flip_32_pld.rnpi"/>
+  <File Type="PL_MARKER_RNPI_FILE" Name="one_shift_flip_32_pld_markers.rnpi"/>
+  <File Type="PL_MASK_RNPI_FILE" Name="one_shift_flip_32_pld_mask.rnpi"/>
+  <File Type="PL_SHUTDOWN_RNPI_FILE" Name="one_shift_flip_32_pld_shutdown.rnpi"/>
+  <File Type="PL_UNMASK_RNPI_FILE" Name="one_shift_flip_32_pld_unmask.rnpi"/>
+  <File Type="PL-RCDO-FILE" Name="one_shift_flip_32_pld.rcdo"/>
+  <File Type="PL-CLEAR-RCDO-FILE" Name="one_shift_flip_32_pld_clear.rcdo"/>
+  <File Type="PL_MARKER_RCDO_FILE" Name="one_shift_flip_32_pld_markers.rcdo"/>
+  <File Type="PL_MASK_RCDO_FILE" Name="one_shift_flip_32_pld_mask.rcdo"/>
+  <File Type="PL_UNMASK_MARKER_RCDO_FILE" Name="one_shift_flip_32_pld_unmask_markers.rcdo"/>
+  <File Type="PL_UNMASK_RCDO_FILE" Name="one_shift_flip_32_pld_unmask.rcdo"/>
+  <File Type="NPI_FILE" Name="one_shift_flip_32.npi"/>
+  <File Type="RBD_FILE" Name="one_shift_flip_32.rbd"/>
+  <File Type="MMI-FILE" Name="one_shift_flip_32.mmi"/>
+  <File Type="BIF-FILE" Name="one_shift_flip_32.bif"/>
+  <File Type="BOOT-BIF-FILE" Name="one_shift_flip_32_boot.bif"/>
+  <File Type="PL-BIF-FILE" Name="one_shift_flip_32_pld.bif"/>
+  <File Type="LTX-FILE" Name="one_shift_flip_32.ltx"/>
+  <File Type="BOOT-LTX-FILE" Name="one_shift_flip_32_boot.ltx"/>
+  <File Type="PL-LTX-FILE" Name="one_shift_flip_32_pld.ltx"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="one_shift_lr.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="one_shift_lr.sysdef"/>
-  <File Type="BG-BGN" Name="one_shift_lr.bgn"/>
-  <File Type="BG-DRC" Name="one_shift_lr.drc"/>
-  <File Type="RDI-RDI" Name="one_shift_lr.vdi"/>
+  <File Type="BITSTR-LTX" Name="one_shift_flip_32.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="one_shift_flip_32.sysdef"/>
+  <File Type="BG-BGN" Name="one_shift_flip_32.bgn"/>
+  <File Type="BG-DRC" Name="one_shift_flip_32.drc"/>
+  <File Type="RDI-RDI" Name="one_shift_flip_32.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="ROUTE-RQS" Name="one_shift_lr_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="one_shift_lr_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS" Name="one_shift_flip_32_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="one_shift_flip_32_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_lr_compare.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_lr_flip.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/one_shift_lr.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_flip_16.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_flip_32.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_lr_16.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/one_shift_lr_32.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -122,8 +164,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="one_shift_lr"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="one_shift_flip_32"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -134,14 +175,20 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/one_shift_lr.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2025"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

@@ -1,0 +1,4 @@
+Running: xsim.dir/one_shift_32_testbench_behav/xsimk.exe -simmode gui -wdb one_shift_32_testbench_behav.wdb -simrunnum 0 -socket 51016
+Design successfully loaded
+Design Loading Memory Usage: 26804 KB (Peak: 26804 KB)
+Design Loading CPU Usage: 15 ms

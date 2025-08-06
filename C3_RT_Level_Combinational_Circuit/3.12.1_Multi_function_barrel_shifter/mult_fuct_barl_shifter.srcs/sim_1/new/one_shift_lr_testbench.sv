@@ -22,21 +22,37 @@
 
 module one_shift_lr_testbench;
     logic [7:0] test_in, test_out;
-    logic test_lr;
+    logic test_lr, test_switch;
     
-    one_shift_lr uut
-        (.in(test_in), .out(test_out), .lr(test_lr));
+    one_shift_lr_compare uut
+        (.in(test_in), .out_lr(test_out), .out_flip(test_out), .lr(test_lr), .shift_circuit(test_switch));
     
     
     initial
     begin    
+    //testing lr circuit
+    
     // one shift to left
     test_in = 8'b10000001;
     test_lr = 1'b0;
+    test_switch = 1'b0;
     #200;
     // one shift to right
     test_in = 8'b10000001;
     test_lr = 1'b1;
+    test_switch = 1'b0;
     #200;
+    
+    //testing flip circuit -- OUTPUT should be same as lr
+    
+    // one shift to left
+    test_in = 8'b10000001;
+    test_lr = 1'b0;
+    test_switch = 1'b1;
+    #200;
+    // one shift to right
+    test_in = 8'b10000001;
+    test_lr = 1'b1;
+    test_switch = 1'b1;
     end
 endmodule

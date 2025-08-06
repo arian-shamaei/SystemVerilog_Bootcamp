@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log one_shift_lr.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source one_shift_lr.tcl" );
+         "-log one_shift_flip_32.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source one_shift_flip_32.tcl" );
 
 
 
